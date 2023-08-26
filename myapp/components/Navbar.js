@@ -1,10 +1,11 @@
 'use client'
-import React, {useState} from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
+import React, { useState } from 'react';
+import Link from 'next/link';
 import { FaShoppingCart, FaBars, FaTimes } from 'react-icons/fa'; 
+import Image from 'next/image';
 import logo from "../public/logo.png"
 import Box from './Box';
+
 
 const Navbar = () => {
     const [mobileMenu, setMobileMenu] = useState(false);
